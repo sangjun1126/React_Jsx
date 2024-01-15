@@ -42,4 +42,4 @@
 
 #### 전개 연산자는 객체에서도 사용가능합니다. 
 
-[구조분해할당](https://github.com/sangjun1126/React_Jsx/edit/main/README.md)
+### [구조분해할당](https://github.com/sangjun1126/React_Jsx/blob/main/src/%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%84%A4%EB%AA%85)
