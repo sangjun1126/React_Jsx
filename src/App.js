@@ -1,13 +1,9 @@
-import React, { Component, component } from 'react';
-import './App.css';
+import React from 'react';
+import PropComponent from './03/PropsComponent';
 
-class App extends Component {
+class App extends React.Component {
   render() {
-    return (
-      <div className="App">
-        <h1 className="title">리액트 시작하기 in 두잇</h1>
-      </div>
-    );
+    return <PropComponent name="두잇 리액트" />;
   }
 }
 
