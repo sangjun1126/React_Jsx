@@ -1,3 +1,6 @@
+// 책에서는 App.js 파일에서 실습
+// 비교분석을 위해 App.jsx 파일을 만들어 코드 비교
+
 import React from "react";
 import ChildComponent from "./03/ChildComponent";
 
