@@ -1,10 +1,11 @@
-// InputStory.jsx 파일을 loadStories() 함수 안에서 require() 함수로 임포트
-
 import { configure } from '@storybook/react';
+import interopRequireDefault from 'babel-runtime/helpers/interopRequireDefault';
 
-function loadstories() {
-  require('../src/stories/InputStory');
-  // 스토리 파일을 이 곳에 추가할 수 있음
+function loadStories() {
+  const context = require.context('../src/stories', true, /Story\.jsx$/);
+  context.keys().forEach((srcFile) => {
+    interopRequireDefault(context(srcFile));
+  });
 }
 
-configure(loadstories, module);
+configure(loadStories, module);
